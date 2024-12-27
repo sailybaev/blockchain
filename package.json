@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-assignment",
+  "version": "1.0.0",
+  "description": "Assignment 1 for Blockchain Technologies",
+  "main": "deploy.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "interact": "node scripts/interact.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "solc": "^0.8.28",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
